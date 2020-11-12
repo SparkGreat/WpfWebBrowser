@@ -1,0 +1,30 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:wpf="clr-namespace:MaterialDesignThemes.Wpf"
+                    xmlns:converters="clr-namespace:MaterialDesignThemes.Wpf.Converters"
+                    xmlns:local="clr-namespace:WpfWebBrowser.Resources.Skin">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+        <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Accent/MaterialDesignColor.Lime.xaml" />
+    </ResourceDictionary.MergedDictionaries>
+    
+    <!--MID--> <!-- 默认 -->
+    <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#FF007ACC"/>
+    <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="White"/>
+
+    <!--PRIMARY-->
+    <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#6a1b9a"/>
+    <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="#FFFFFF"/>
+
+    <!--DARK-->
+    <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#FF455A64"/>
+    <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="#FFE7EAED"/>
+
+    <!--ACCENT-->
+    <SolidColorBrush x:Key="PrimaryHueAccentBrush" Color="#ef6c00"/>
+    <SolidColorBrush x:Key="PrimaryHueAccentForegroundBrush" Color="#FFFFFF"/>
+
+</ResourceDictionary>
